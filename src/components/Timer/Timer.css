@@ -1,0 +1,31 @@
+.Timer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Timer__progress {
+  height: 400px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.Timer__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 140px;
+  height: 60px;
+  background-color: #454c5e;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin:20px 0;
+}
+
+.Timer__button > p {
+  margin-left: 10px;
+}
